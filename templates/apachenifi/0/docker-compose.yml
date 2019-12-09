@@ -9,7 +9,7 @@ services:
   nifi:
     image: apache/nifi:latest
     ports:
-      - ${HTTP_PORT}8080 # Unsecured HTTP Web Port
+      - 8080 # Unsecured HTTP Web Port
     environment:
       - NIFI_WEB_HTTP_PORT=8080
       - NIFI_CLUSTER_IS_NODE=true
