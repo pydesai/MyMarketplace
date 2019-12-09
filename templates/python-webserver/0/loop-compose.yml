@@ -1,0 +1,15 @@
+This `loop-compose.yml` file provides the variable descriptor for the `docker-compose.yml` file.
+
+```
+.catalog:
+  name: Python-WebServer
+  version: latest
+  uuid: python-webserver—0
+  questions:
+  - variable: HTTP_PORT
+    description: 'WebServer exposed port'
+    label: 'Port:'
+    required: true
+    default: 8000
+    type: int
+```
