@@ -1,5 +1,5 @@
 .catalog:
-  name: Apache-NiFi
+  name: ApacheNiFi
   version: latest
   uuid: apache-nifi—0
   questions:
