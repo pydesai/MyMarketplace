@@ -1,0 +1,4 @@
+name: ApacheNiFi
+description: Apache NiFi Docker
+category: Programming
+version: 1.8.0
