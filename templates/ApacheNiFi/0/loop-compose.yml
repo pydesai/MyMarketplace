@@ -1,7 +1,7 @@
-.catalog:
+﻿.catalog:
   name: ApacheNiFi
   version: latest
-  uuid: apache-nifi—0
+  uuid: apachenifi-0
   questions:
   - variable: HTTP_PORT
     description: 'WebServer exposed port'
