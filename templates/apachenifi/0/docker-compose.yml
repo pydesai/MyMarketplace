@@ -20,8 +20,3 @@ services:
       - NIFI_ELECTION_MAX_WAIT=1 min
     links:
       - zookeeper
-    depends:
-      - zookeper
-networks:
-  default:
-    - bridge
