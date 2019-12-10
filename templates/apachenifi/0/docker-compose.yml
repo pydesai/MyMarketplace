@@ -1,10 +1,10 @@
 version: "3"
 
 services:
-  zookeeper:  # the configuration manager
-    hostname: zookeeper
-    container_name: zookeeper
-    image: 'bitnami/zookeeper:latest'
+  zookeeper:
+    image: 'bitnami/zookeeper:3'
+    ports:
+      - '2181:2181'
     environment:
       - ALLOW_ANONYMOUS_LOGIN=yes
       
